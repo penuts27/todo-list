@@ -11,7 +11,11 @@
   margin-right: 20px;
   cursor: pointer;
 }
-
+@media (max-width: 980px){
+  .todo-footer label {
+    margin-right: 5px;
+  }
+}
 .todo-footer label input {
   position: relative;
   top: -1px;
